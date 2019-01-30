@@ -1,2 +1,2 @@
 # gings
-gings server app repository
+Gings server portfolio

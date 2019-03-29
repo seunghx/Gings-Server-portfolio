@@ -41,7 +41,7 @@
 
 |헤더명|값 설명|
 |----|----|
-|Authorization|JWT token : <scheme> value|
+|Authorization|Bearer tokenValue|
 
 ---
 ### 채팅방 외 클라이언트 요청

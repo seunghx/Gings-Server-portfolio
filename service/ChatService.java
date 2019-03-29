@@ -104,11 +104,12 @@ public class ChatService {
         
         log.info("Creating chat room succeeded.");
         
-        return chatRoom.getId();
+        chatRoom.getId();
     }
             
     /**
      * {@link Transactional}의 영향 받지 않기 위해 분리.
+     * notify 과정에서 에러가 발생했다고 채팅방 생성이 취소되어야하는 것은 아니라고 판단.
      */
     public void notifyChatRoomOpening(int roomId) {
         
